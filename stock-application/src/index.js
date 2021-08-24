@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { AppComponent } from "./components/AppComponent"
+import { EmployeeDetailsClass } from "./components/EmployeeDetailsClass";
 
-ReactDOM.render(<AppComponent></AppComponent>, document.getElementById("root"));
+ReactDOM.render(<EmployeeDetailsClass></EmployeeDetailsClass>, document.getElementById("root"));
+
+
 
 
