@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { EmployeeDetailsClass } from "./components/EmployeeDetailsClass";
+import StockUpdates from "./components/StockUpdates";
 
-ReactDOM.render(<EmployeeDetailsClass></EmployeeDetailsClass>, document.getElementById("root"));
+ReactDOM.render(<StockUpdates></StockUpdates>, document.getElementById("root"));
 
 
 
