@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import StockUpdates from "./components/StockUpdates";
+import LayoutPage from "./components/hooks/SinglePageApplication";
 
-ReactDOM.render(<StockUpdates></StockUpdates>, document.getElementById("root"));
+ReactDOM.render((
+    <div>
+        <LayoutPage></LayoutPage>
+    </div>
+), document.getElementById("root"));
 
 
 
